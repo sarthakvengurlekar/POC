@@ -1,1 +1,10 @@
-# POC
+# This project was a project for our client, Nasdaq. Nasdaq is a global electronic marketplace for buying and selling stocks. The rapid evolution of the computerized trading system has made Nasdaq’s electronic trading model the standard for markets worldwide. The name of this project is Invest Genie.
+In this project, a web-based stock market system is developed which helps the users to obtain the price of the stocks. The users can buy, hold or sell stock prices of a company. They are advised when to invest and when to pull out using various machine learning algorithms such as Artificial Neural Networks, Bayes Curve Fitting and Support Vector Machines. It helps the user to manage risks and at the same time analyze their gains, losses and overall performance on their investments.
+As far as the scope of the project is considered:
+This project was developed using various java enterprise technologies such as Spring Boot, Spring Cloud, Spring AOP and Spring Security.
+My responsibilities were as follows:
+1.	I developed microservices based on Spring Boot to show the stock information of a company that a user selected from the database along with the predictions obtained through machine learning with the help of RESTful APIs to retrieve, process and display the stock information.
+2.	I used Spring AOP to determine the application status and logging in the application. For this we implemented a join point. To achieve this we had to create a pointcut which is a regular expression that matches the join point.  
+3.	I implemented security to the system using Spring Security with OAuth2.0 protocol. This allowed the user to log in or sign up using options such as google or facebook.
+4.	I worked on development of the User Interface for the user portals such as the the registration page and the main user page using HTML5, CSS3 and jQuery.
+Throughout the project, we followed Agile Software Development Life Cycle Methodology. In this project, I worked on developing a user login and registration page for which we used Angular framework. I used Kafka along with Spring cloud to enable streaming of messages between the microservices. For unit testing we used Test Driven Deployment tools such as Postman, Junit and Mockito. JIRA was used for bug tracking
